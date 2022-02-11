@@ -13,7 +13,11 @@ int main() {
 
     for (i = 0; i < n; i++)
     {
-        scanf("%i", &cur_number);
+        if (scanf("%i", &cur_number) != 1)
+        {
+            printf("Wrong input");
+            return 1;
+        }
         sum += cur_number;
     }
 
