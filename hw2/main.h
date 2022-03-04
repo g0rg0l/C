@@ -1,21 +1,16 @@
-#ifndef INC_01_03_22_MAIN_H
-#define INC_01_03_22_MAIN_H
-
 #include "item.h"
 
-void addToEnd(Item **listHead, int number);
 
-void addToStart(Item **listHead, int number);
+void addToEnd(Item **listHead, int number); // Добавить элемент в конец списка
 
-void show(const Item *listHead);
+void addToStart(Item **listHead, int number); // Добавить элемент в начало списка
 
-void pop(Item **listHead);
+void show(const Item *listHead); // Вывести список
 
-int has(const Item *listHead, int n);
+void pop(Item **listHead); // Удалить последний элемент списка
 
-void clear(Item **listHead);
+int has(const Item *listHead, int n); // Проверить присутствие элемента в списке по значению
 
-int getLength(const Item *listHead);
+void clear(Item **listHead); // Удалить список
 
-
-#endif //INC_01_03_22_MAIN_H
+int getLength(const Item *listHead); // Получить количество элементов списка
