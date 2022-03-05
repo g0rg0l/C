@@ -148,4 +148,4 @@ int getLength(const Item *listHead)
     }
 
     return count;
-}
+}  // Получение длинны списка
