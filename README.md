@@ -1,4 +1,5 @@
 # C
 C language practice
 
-11.02.2022 -> "classwork1"
+- "hw*" - Домашние задания
+- "optimizing.ipynb" - Проект по оптимизации
